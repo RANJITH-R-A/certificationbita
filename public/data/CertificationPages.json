@@ -1,0 +1,149 @@
+[
+  {
+    "category": "Python Institute Certification",
+    "subcategories": [
+      {
+        "name": "Python Certified Programmer",
+        "certificationitems": [
+          {
+            "code": "PCEP",
+            "slug": "pcep",
+            "title": "Python Institute Certified Entry-Level Python Programmer",
+            "examdetails": {
+              "examname": "Certified Entry Level Python Programmer",
+              "prereq": "None",
+              "examlevel": "Entry Level Programmer",
+              "currentexamversion": "PCEP-30-02",
+              "examcode": "PCEP-30-xx",
+              "retiredexamversions": "PCEP-30-01",
+              "examlength": "Exam- 40 minutes, NDA/Tutorial- 5 minutes",
+              "nofq": 30,
+              "passingscore": "70%",
+              "price": "USD 59"
+            },
+            "certificationcontent": {
+              "coursename": "PCEP Training Course",
+              "cncontent": "Welcome to BITA Certification Training Institute, your entry point to mastering Python programming with our PCEP training course. Our curriculum is specifically designed to provide participants with the necessary skills and knowledge to become a Python Institute Certified Entry-Level Python Programmer (PCEP). Throughout this comprehensive course, participants will learn Python fundamentals, syntax, data types, control structures, and more, equipping them to shine on the PCEP test.",
+              "whytakecourse": "Why Take the Python Certified Entry-Level Python Programming Course?",
+              "whytakcoursecontent": "Enrolling in the PCEP training course provides many prospects in the ever-expanding programming field. Python has developed as one of the most popular programming languages due to its versatility, simplicity, and breadth of applicability. This course provides participants with a solid foundation in Python programming, allowing them to pursue a variety of professional pathways in software development, data science, machine learning, web development, and beyond. Additionally, gaining PCEP certification increases one's reputation and marketability in the job market, distinguishing them as a skilled Python programmer.",
+              "learncourse": "Who Can Learn PCEP?",
+              "learncoursecontent": "Our PCEP training course is appropriate for persons from many backgrounds, including",
+              "learncoursepoints": [
+                "Students are looking to start their careers in programming.",
+                "Professionals want to expand their skill set and remain competitive in the employment market.",
+                "Career changers wishing to move into the industry of software development.",
+                "Anyone who likes coding and wants to learn Python programming.",
+                "The PCEP course requires no prior programming knowledge, making it suitable for novices and seasoned experts."
+              ],
+              "courseprerequ": "Prerequisites for PCEP",
+              "courseprerequcontent": "While no prior programming expertise is required, participants should have a fundamental understanding of computer processes and logic. Understanding general computer terms and concepts will help you learn more effectively. Our comprehensive curriculum is designed to accommodate learners of varying ability levels, ensuring that everyone understands the fundamentals of Python programming.",
+              "howtoapply": "How to Apply for the PCEP Exam?",
+              "howtoapplycontent": "Participants who complete the PCEP training course will be qualified to take the Python Institute's PCEP exam. The exam can be scheduled online at the Python Institute's official website. Prior registration is required, and candidates must follow the institute's exam standards and prerequisites. Our teachers guide and accompany participants through the exam registration procedure.",
+              "costofcourse": "Cost of PCEP Exam Certification",
+              "costofcoursecontent": "The cost of PCEP exam certification varies according to region and exam administration costs set by the Python Institute. For the most recent information on exam prices and payment methods, we recommend visiting the Python Institute's official website. As part of our commitment to promoting career advancement, we provide participants with guidance and resources to help them prepare for the exam and improve their chances of success.",
+              "obtaincourse": "How to Obtain PCEP Certification?",
+              "obtaincoursecontent": "Candidates who complete the PCEP test will get the acclaimed Python Institute Certified Entry-Level Python Programmer (PCEP) credential. This globally recognized credential verifies Python programming skills and demonstrates passion and knowledge. PCEP certification opens the door to a wide range of job prospects and serves as a solid foundation for further growth in Python programming.",
+              "significance ": "The Significance of PCEP Certification",
+              "significancepoints": [
+                "Obtaining PCEP certification significantly benefits individuals aiming to enhance their knowledge and skills to advance to more advanced, specialized, and financially lucrative roles. This includes team leaders, product managers, project managers, aspiring programmers, entry-level software developers, data analysts, testers, and industry professionals interested in investigating Python-related matters.",
+                "Obtaining PCEP certification guarantees that the candidate is well-versed in Python's fundamental tools and concepts, which are necessary to commence their academic pursuits at an intermediate level and further their professional growth.",
+                "The PCEP certification is a prerequisite for the subsequent PCAP certification and initiates a professional trajectory in Python programming, software development, and associated technologies. ",
+                "Obtaining PCEP certification distinguishes certification holders from other applicants, facilitates entry-level employment opportunities, and enables them to secure a junior-level position in the IT sector or any other field where fundamental Python skills are advantageous.",
+                "Python is either the highest-paid or one of the highest-paid languages in all countries today, with annual wages ranging between $90,000 and $130,000. The average Python programmer's income will almost certainly rise as the world's reliance on the Internet grows and Python plays an increasingly important role."
+              ],
+              "finally": "Finally, the BITA Certification Training Institute's PCEP training course will prepare you to become a qualified Python programmer. Whether you're a beginner or an experienced professional, our comprehensive curriculum, qualified teachers, and hands-on learning method will ensure you obtain the skills and information needed to succeed on the PCEP exam and beyond. Join today's PCEP Training Course and begin an excellent path to mastering Python programming."
+            }
+          },
+          {
+            "code": "PCAP",
+            "slug": "pcap",
+            "title": "Python Institute Certified Associate in Python Programming",
+            "examdetails": {
+              "examname": "Python Certified Associate Programmer",
+              "prereq": "None",
+              "examlevel": "Associate",
+              "currentexamversion": "PCAP-31-03",
+              "examcode": "PCAP-31-xx",
+              "retiredexamversions": "PCAP-31-01, PCAP-31-02",
+              "examlength": "Exam - 65 minutes, NDA/Tutorial- 10 minutes",
+              "nofq": 40,
+              "passingscore": "70%",
+              "price": "USD 295"
+            },
+            "certificationcontent": {
+              "coursename": "PCAP Preparation Course - Your Pathway to Becoming a Python Associate Programmer",
+              "cncontent": "At BITA Academy, we are committed to providing individuals with the skills and information required to succeed in today's technologically advanced world. Our PCAP Preparation course is designed to provide you with the fundamental skills and hands-on experience needed to launch your career in Python development.",
+              "courseoverview" : "Course Overview",
+              "courseoverviewcontent" :[
+                "Our PCAP Preparation course is designed to give you a thorough understanding of the foundations of Python programming. From basic syntax to advanced topics, our skilled educators will walk you through each step of your learning experience. You will work on real-world projects and assignments throughout the course to strengthen your knowledge and earn practical experience.",
+                "The course curriculum includes important topics, including Python fundamentals, syntax, data types, control structures, functions, modules, and more. Furthermore, our unique focus on PCAP preparation ensures you are fully prepared to pass the certification exam and demonstrate your competence to potential employers."
+              ],
+              "whytakecourse": "Why take the Python Associate Programmer Course?",
+              "whytakcoursecontent": "Python is one of the world's most versatile and popular programming languages. Mastering Python will give you access to various professional options in software development, data science, artificial intelligence, and web development. Our Python Associate Programmer course provides a solid foundation for your journey into the exciting world of Python programming.",
+              "learncourse": "Who can learn PCAP?",
+              "learncoursecontent": "Whether you're a complete newbie or an experienced programmer wishing to extend your skill set, our PCAP Preparation course is appropriate for people at all levels. This course is ideal for those passionate about technology who want to improve their programming skills.",
+              "learncoursepoints":null,
+              "courseprerequ": "Prerequisites for PCAP.",
+              "courseprerequcontent": "While no prior programming experience is required to participate in our Python Associate Programmer course, having a basic understanding of computer science basics and familiarity with programming language concepts would be helpful. Our course is designed to accommodate students from various backgrounds and ability levels, allowing everyone to thrive and succeed.",
+              "howtoapply": "How to Apply for the PCAP Exam?",
+              "howtoapplycontent":"The application process for the PCAP exam is basic. Once you've completed our PCAP Preparation course and are confident in your abilities, go to the official Python Institute website to register for the exam. Follow the website's instructions to schedule your exam day and venue.",
+              "costofcourse": "Cost of PCAP Exam Certification",
+              "costofcoursecontent":"The cost of obtaining PCAP exam certification may vary depending on your location and exam provider. For the most up-to-date cost information, visit the Python Institute's website or contact your local exam facility. Investing in your certification will help you advance your profession and earn more money.",
+              "obtaincourse": "How to Obtain PCAP Certification?",
+              "obtaincoursecontent": "PCAP certification validates your Python programming skills and indicates your commitment to professional development. To succeed on the exam, we encourage rigorous preparation and consistent practice. Our course includes specialized PCAP preparation sessions to guarantee that you are well-prepared to take the exam confidently.",
+              "significance ": "The Significance of PCAP Certification",
+              "significancecontent" : "PCAP certification is highly advantageous to anyone seeking to obtain the requisite expertise and understanding to progress to more sophisticated, specialized, and financially rewarding positions in software development, security, networking, the Internet of Things, and engineering.",
+              "significancepoints": [
+              "Individuals who aspire to become programmers or are interested in learning programming for both professional and recreational purposes; ",
+              "Individuals who are changing careers and are seeking a junior-level position as a software developer, data analyst, or tester.",
+              "Individuals working in the industry who are interested in investigating technologies that are integrated with Python or use it as a fundamental framework;",
+              "Individuals aspiring to become programmers or industry professionals seeking to establish a strong groundwork for advanced studies in specialized domains such as web development, testing, data analytics, machine learning, IoT, and testing; and team leaders, product managers, and project managers desiring to comprehend the terminology and procedures involved in the software development cycle."
+              ],
+              "finally": "In conclusion, enrolling in BITA Academy's PCAP Preparation course is the first step toward realizing your Python development goals. With our extensive curriculum, professional instructors, and specific PCAP preparation, you'll be well-prepared to begin a rewarding career. Join us today to maximize your Python programming abilities!"
+            }
+          },
+          {
+            "code": "PCPP1",
+            "slug": "pcpp1",
+            "title": "Certified Professional Python Programmer Level 1",
+            "c_image": "/certification_img/python_logo/PCPPL1.webp"
+          },
+          {
+            "code": "PCPP2",
+            "slug": "pcpp2",
+            "title": "Certified Professional Python Programmer Level 2",
+            "c_image": "/certification_img/python_logo/PCPPL2.webp"
+          }
+        ]
+      },
+      {
+        "name": "Python Certified Tester",
+        "certificationitems": [
+          {
+            "code": "PCAT",
+            "slug": "pcat",
+            "title": "Certified Associate Tester with Python",
+            "c_image": "/certification_img/python_logo/PCAT.webp"
+          }
+        ]
+      },
+      {
+        "name": "Python Certified Data Analyst",
+        "certificationitems": [
+          {
+            "code": "PCED",
+            "slug": "pced",
+            "title": "Certified Entry-Level Data Analyst with Python",
+            "c_image": "/certification_img/python_logo/PCED.webp"
+          },
+          {
+            "code": "PCAD",
+            "slug": "pcad",
+            "title": "Certified Associate Data Analyst with Python",
+            "c_image": "/certification_img/python_logo/PCAD.webp"
+          }
+        ]
+      }
+    ]
+  }
+]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

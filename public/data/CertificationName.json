@@ -1,0 +1,387 @@
+[
+    {
+      "category": "Python Institute Certification",
+      "subcategories": [
+        {
+          "name": "Python Certified Programmer",
+          "items": [
+            {
+              "code": "PCEP",
+              "slug": "pceptrainingcourse",
+              "title": "Python Institute Certified Entry-Level Python Programmer",
+              "c_image": "/certification_img/python_logo/PCEP.webp"
+            },
+            {
+              "code": "PCAP",
+              "slug": "pcappreparationcourse",
+              "title": "Python Institute Certified Associate in Python Programming",
+              "c_image": "/certification_img/python_logo/PCAP.webp"
+
+            },
+            {
+              "code": "PCPP1",
+              "slug": "pcpp1training",
+              "title": "Certified Professional Python Programmer Level 1",
+              "c_image": "/certification_img/python_logo/PCPPL1.webp"
+            },
+            {
+              "code": "PCPP2",
+              "slug": "pcpp2course",
+              "title": "Certified Professional Python Programmer Level 2",
+              "c_image": "/certification_img/python_logo/PCPPL2.webp"
+            }
+          ]
+        },
+        {
+          "name": "Python Certified Tester",
+          "items": [
+            {
+              "code": "PCAT",
+              "slug": "pcat",
+              "title": "Certified Associate Tester with Python",
+              "c_image": "/certification_img/python_logo/PCAT.webp"
+            }
+          ]
+        },
+        {
+          "name": "Python Certified Data Analyst",
+          "items": [
+            {
+              "code": "PCED",
+              "slug": "pced",
+              "title": "Certified Entry-Level Data Analyst with Python",
+              "c_image": "/certification_img/python_logo/PCED.webp"
+            },
+            {
+              "code": "PCAD",
+              "slug": "pcad",
+              "title": "Certified Associate Data Analyst with Python",
+              "c_image": "/certification_img/python_logo/PCAD.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Microsoft Certification",
+      "subcategories": [
+        {
+          "name": "Microsoft Azure Certified Associate",
+          "items": [
+            {
+              "code": "SC-200",
+              "slug": "sc200",
+              "title": "Microsoft Security Operations Analyst",
+              "c_image": "/certification_img/microsoft_logo/sc200.png"
+
+            },
+            {
+              "code": "SC-300",
+              "slug": "sc300",
+              "title": "Microsoft Identity and Access Administrator",
+              "c_image": "/certification_img/microsoft_logo/SC300.png"
+            },
+            {
+              "code": "AZ-104",
+              "slug": "az104",
+              "title": "Microsoft Azure Administrator",
+              "c_image": "/certification_img/microsoft_logo/AZ104.png"
+            },
+            {
+              "code": "AZ-204",
+              "slug": "az204",
+              "title": "Developing Solutions for Microsoft Azure",
+              "c_image": "/certification_img/microsoft_logo/AZ204.png"
+            },
+            {
+              "code": "AZ-500",
+              "slug": "az500",
+              "title": "Microsoft Azure Security Technologies",
+              "c_image": "/certification_img/microsoft_logo/AZ500.png"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Azure Certified Expert",
+          "items": [
+            {
+              "code": "AZ-305",
+              "slug": "az305",
+              "title": "Designing Microsoft Azure Infrastructure Solutions",
+              "c_image": "/certification_img/microsoft_logo/AZ305.png"
+            },
+            {
+              "code": "AZ-400",
+              "slug": "az400",
+              "title": "Designing and Implementing Microsoft DevOps Solutions",
+              "c_image": "/certification_img/microsoft_logo/AZ400.png"
+            },
+            {
+              "code": "SC-100",
+              "slug": "sc100",
+              "title": "Microsoft Cybersecurity Architect",
+              "c_image": "/certification_img/microsoft_logo/SC100.png"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Dynamic 365 Fundamentals",
+          "items": [
+            {
+              "code": "MB-910",
+              "slug": "mb910",
+              "title": "Microsoft Dynamics 365 Fundamentals (CRM)",
+              "c_image": "/certification_img/microsoft_logo/MB910.png"
+            },
+            {
+              "code": "MB-920",
+              "slug": "mb920",
+              "title": "Microsoft Dynamics 365 Fundamentals (ERP)",
+              "c_image": "/certification_img/microsoft_logo/MB920.png"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Dynamic 365 Expert",
+          "items": [
+            {
+              "code": "MB-335",
+              "slug": "mb335",
+              "title": "Microsoft Dynamics 365 Supply Chain Management Functional Consultant Expert",
+              "c_image": "/certification_img/microsoft_logo/MB335.png"
+            },
+            {
+              "code": "MB-700",
+              "slug": "mb700",
+              "title": "Microsoft Dynamics 365 Finance and Operations Apps Solution Architect",
+              "c_image": "/certification_img/microsoft_logo/MB700.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "CompTIA Certification",
+      "subcategories": [
+        {
+          "name": "CompTIA Core Certifications",
+          "items": [
+            {
+              "code": "220-1101",
+              "slug": "2201101",
+              "title": "CompTIA A+",
+              "c_image": "/certification_img/comptia_logo/com220.webp"
+            },
+            {
+              "code": "N10-008",
+              "slug": "n10008",
+              "title": "CompTIA Network+",
+              "c_image": "/certification_img/comptia_logo/comn10.webp"
+            },
+            {
+              "code": "SY0-701",
+              "slug": "sy0701",
+              "title": "CompTIA Security+",
+              "c_image": "/certification_img/comptia_logo/comsy0701.webp"
+              
+            },
+            {
+              "code": "SY0-601",
+              "slug": "sy0601",
+              "title": "CompTIA Security+",
+              "c_image": "/certification_img/comptia_logo/comsy0601.webp"
+            }
+          ]
+        },
+        {
+          "name": "CompTIA Infrastructure Certification",
+          "items": [
+            {
+              "code": "CV0-003",
+              "slug": "cv0003",
+              "title": "CompTIA Cloud+",
+              "c_image": "/certification_img/comptia_logo/comcv0.webp"
+            },
+            {
+              "code": "XK0-005",
+              "slug": "xk0005",
+              "title": "CompTIA Linux+",
+              "c_image": "/certification_img/comptia_logo/comxk0.webp"
+            }
+          ]
+        },
+        {
+          "name": "CompTIA Cyber Security Certification",
+          "items": [
+            {
+              "code": "CA0-003",
+              "slug": "ca0003",
+              "title": "CompTIA Cybersecurity Analyst (CySA+)",
+              "c_image": "/certification_img/comptia_logo/comca0.webp"
+            },
+            {
+              "code": "CAS-004",
+              "slug": "cas004",
+              "title": "CompTIA Advanced Security Practitioner (CASP+)",
+              "c_image": "/certification_img/comptia_logo/comcas.webp"
+            },
+            {
+              "code": "PT0-002",
+              "slug": "pt0002",
+              "title": "CompTIA PenTest+",
+              "c_image": "/certification_img/comptia_logo/compt0.webp"
+            }
+          ]
+        },
+        {
+          "name": "CompTIA Data Analytics Certification",
+          "items": [
+            {
+              "code": "DA0-001",
+              "slug": "da0001",
+              "title": "CompTIA Data+",
+              "c_image": "/certification_img/comptia_logo/comda0.webp"
+            },
+            {
+              "code": "DS0-001",
+              "slug": "ds0001",
+              "title": "CompTIA DataSys+",
+              "c_image": "/certification_img/comptia_logo/comds0.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "GIAC Certification",
+      "subcategories": [
+        {
+          "name": "GIAC Cyber Defense Certifications",
+          "items": [
+            {
+              "code": "GMLE",
+              "slug": "gmle",
+              "title": "GIAC Machine Learning Engineer",
+              "c_image": "/certification_img/giac_logo/gmle.webp"
+            },
+            {
+              "code": "GSOC",
+              "slug": "gsoc",
+              "title": "GIAC Security Operations Certified",
+              "c_image": "/certification_img/giac_logo/gsoc.webp"
+            },
+            {
+              "code": "GISF",
+              "slug": "gisf",
+              "title": "GIAC Information Security Fundamentals",
+              "c_image": "/certification_img/giac_logo/gisf.webp"
+            },
+            {
+              "code": "GDSA",
+              "slug": "gdsa",
+              "title": "GIAC Defensible Security Architect",
+              "c_image": "/certification_img/giac_logo/gdsa.webp"
+            }
+          ]
+        },
+        {
+          "name": "GIAC Cyber Security Certification",
+          "items": [
+            {
+              "code": "GISP",
+              "slug": "gisp",
+              "title": "GIAC Information Security Professional",
+              "c_image": "/certification_img/giac_logo/gisp.webp"
+            },
+            {
+              "code": "GSOM",
+              "slug": "gsom",
+              "title": "GIAC Security Operations Manager",
+              "c_image": "/certification_img/giac_logo/gsom.webp"
+            }
+          ]
+        },
+        {
+          "name": "GIAC Pen Testing Certification",
+          "items": [
+            {
+              "code": "GCIH",
+              "slug": "gcih",
+              "title": "GIAC Certified Incident Handler",
+              "c_image": "/certification_img/giac_logo/gcih.webp"
+            },
+            {
+              "code": "GPEN",
+              "slug": "gpen",
+              "title": "GIAC Penetration Tester",
+              "c_image": "/certification_img/giac_logo/gpen.webp"
+            },
+            {
+              "code": "GPYC",
+              "slug": "gpyc",
+              "title": "GIAC Python Coder",
+              "c_image": "/certification_img/giac_logo/gpyc.webp"
+            }
+          ]
+        },
+        {
+          "name": "GIAC Cloud Security Certification",
+          "items": [
+            {
+              "code": "GCSA",
+              "slug": "gcsa",
+              "title": "GIAC Cloud Security Automation",
+              "c_image": "/certification_img/giac_logo/gcsa.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ISACA Certification",
+      "subcategories": [
+        {
+          "name": "ISACA IT Governance Certification",
+          "items": [
+            {
+              "code": "CISM",
+              "slug": "cism",
+              "title": "ISACA Certified Information Security Manager",
+              "c_image": "/certification_img/isaca_logo/cism.webp"
+            },
+            {
+              "code": "CISA",
+              "slug": "cisa",
+              "title": "ISACA Certified Information Systems Auditor",
+              "c_image": "/certification_img/isaca_logo/cisa.webp"
+            },
+            {
+              "code": "CDPSE",
+              "slug": "cdpse",
+              "title": "ISACA Data Privacy Solutions Engineer",
+              "c_image": "/certification_img/isaca_logo/cdpse.webp"
+            },
+            {
+              "code": "CCA",
+              "slug": "cca",
+              "title": "ISACA Certified Cybersecurity Audit",
+              "c_image": "/certification_img/isaca_logo/cca.webp"
+            },
+            {
+              "code": "CDSF",
+              "slug": "cdsf",
+              "title": "ISACA Certified Data Science Fundamentals",
+              "c_image": "/certification_img/isaca_logo/cdsf.webp"
+            },
+            {
+              "code": "CSDF",
+              "slug": "csdf",
+              "title": "ISACA Certified Software Development Fundamentals",
+              "c_image": "/certification_img/isaca_logo/csdf.webp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
