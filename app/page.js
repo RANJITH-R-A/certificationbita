@@ -1,7 +1,8 @@
 "use client"
 import CertificationAll from "./components/CertificationAll"
 import { useState,useEffect } from "react";
-import Link from "next/link";
+import Image from "next/image";
+
 
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
  console.log(getnewdata)
   return (
     <>
-      <main>
+      <main className=" xl:max-w-7xl mx-auto">
         {/* home banner start */}
          <section className="bg-[url(/homepageimages/homebannerimage.webp)] bg-center bg-cover h-96 relative">
           <div className=" flex items-center justify-center lg:justify-end h-full">
@@ -38,37 +39,21 @@ export default function Home() {
             </h1>
             <p className="text-sm text-themelightblack text-center lg:text-start">Your Ultimate Online Companion for Professional Certification Mastery.</p>
            </div>
-           <img src="/homepageimages/homebanneritem.webp" className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" />
+           {/* <img src="/homepageimages/homebanneritem.webp" className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" /> */}
+           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" />
           </div>
          </section>
         {/* home banner end */}
-
         {/* training pattern start */}
         <section className="my-[80px] mx-11 text-sm text-justify">
          <h1 className="text-themeblue font-bold text-2xl my-7">
           Conquer certification exams fearlessly with BITA
          </h1>
-         <p className="text-sm text-themelightblack">Are you seeking a career shift but are terrified by the thought of certification exams? Look no further than BITA IT certification Programs online! We recognize that facing certification examinations might be intimidating, but we're here to help you overcome your concerns and achieve your professional objectives. At BITA, we provide comprehensive  IT certification programs online that will give you the knowledge, skills, and confidence you need to pass your tests. Our skilled teachers offer personalized assistance and support at every stage, ensuring you are prepared to succeed on exam day.</p>
+         <p className="text-sm text-themelightblack">Are you seeking a career shift but are terrified by the thought of certification exams? Look no further than BITA IT certification Programs online! We recognize that facing certification examinations might be intimidating, but we are here to help you overcome your concerns and achieve your professional objectives. At BITA, we provide comprehensive  IT certification programs online that will give you the knowledge, skills, and confidence you need to pass your tests. Our skilled teachers offer personalized assistance and support at every stage, ensuring you are prepared to succeed on exam day.</p>
          <p className="my-4 text-sm text-themelightblack">We provide everything you need to get Microsoft, Python, CompTIA, GIAC, ISACA, or any other IT certification programs online. Our bespoke training approach suits learners of all levels, from beginners to seasoned professionals looking to upskill or transition into new professions.</p>
-         <p className="text-sm text-themelightblack">Don't allow fear to stop you from chasing your dreams. Join BITA IT certification Programs online today and take the first step toward a successful career in the ever-changing world of information technology.</p>
+         <p className="text-sm text-themelightblack">Do not allow fear to stop you from chasing your dreams. Join BITA IT certification Programs online today and take the first step toward a successful career in the ever-changing world of information technology.</p>
         </section>
-        {/* training pattern end */} 
-
-        {/* text dynamic page start */}
-        {/* <section className="my-[80px] mx-11 text-sm">
-         <h1 className="text-themeblue font-bold text-2xl my-7">
-         Test Dynamic page
-         </h1>
-         <ul>
-        {dataset.map((cert) => (
-          <li key={cert.slug}>
-            <Link href={`/testcertification/${cert.slug}`}>{cert.title}</Link>
-          </li>
-        ))}
-      </ul>
-        </section> */}
-        {/* text dynamic page end */}
-
+        {/* training pattern end */}
         {/* certification start  */}
         <CertificationAll/>
         {/* certification start  */}

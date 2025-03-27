@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import DynamicPage from "../../components/DynamicPage";
 import Faq from "../../components/Faq";
+import Image from "next/image";
 
 export default function CertificationPage() {
   const { slug } = useParams();
@@ -67,18 +68,6 @@ export default function CertificationPage() {
   }, [slug]);
 
 
-
-  // const getdata = coursedata.map((getdata1) => getdata1.subcategories)
-  // console.log(getdata,'data2')
-  // Find the selected course and its category
-  // coursedata.subcategories.forEach((subcategory) => {
-  //   const foundCourse = subcategory.items.find((item) => item.slug === slug);
-  //   if (foundCourse) {
-  //     selectedCourse = foundCourse;
-  //     relatedCourses = subcategory.items.filter((course) => course.slug !== slug); // Exclude selected course
-  //   }
-  // });
-
   if (loading) return <h1>Loading...</h1>;
   if (error) return <h1>{error}</h1>;
 
@@ -87,7 +76,8 @@ export default function CertificationPage() {
       {/* certification banner start */}
       <section className="bg-[url(/certification_img/certification_banner/cf_banner.png)] bg-cover h-96 relative">
         <div className="h-full flex justify-center md:justify-around items-center relative">
-          {certification.c_image && <img className=" absolute bottom-0 right-11  md:static h-32 md:h-72 " src={certification.c_image} alt={certification.title} />}
+          {/* {certification.c_image && <img className=" absolute bottom-0 right-11  md:static h-32 md:h-72 " src={certification.c_image} alt={certification.title} />} */}
+          {certification.c_image && <Image className=" absolute bottom-8 right-11 max-md:h-[120px] max-md:w-[120px]  md:static" src={certification.c_image} width={250} height={90} alt={certification.title} />}
           <ul className=" leading-9 ps-5">
             <li className=" text-sm lg:text-base"><span className="text-themeblue font-bold">Exam Name:</span> Certified Entry Level Python Programmer</li>
             <li className=" text-sm lg:text-base"><span className="text-themeblue font-bold">Prerequisites:</span> None</li>
@@ -123,7 +113,8 @@ export default function CertificationPage() {
           <div key={item.code}>
             <Link href={`/certifications/${item.slug}`}>
               <div key={item.code} className="border p-1 rounded-lg flex items-center space-x-3 my-3 shadow-md bg-themewhite">
-                <img src={item.c_image} alt="Badge" className="w-28 h-28 object-contain" />
+                {/* <img src={item.c_image} alt="Badge" className="w-28 h-28 object-contain" /> */}
+                <Image src={item.c_image} width={112} height={112} alt="Badge" className="object-contain" />
                 <div>
                   <h3 className="font-bold">{item.code}</h3>
                   <p className="text-sm text-gray-600">{item.title}</p>

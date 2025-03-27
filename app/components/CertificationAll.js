@@ -2,6 +2,9 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import ContactForm from "./ContactForm";
+import Image from "next/image";
+
 
 export default function CertificationPage() {
   const [certifications, setCertifications] = useState([]);
@@ -70,7 +73,7 @@ export default function CertificationPage() {
 
       {/* Sidebar */}
       <aside
-        className={` absolute md:relative z-50 md:z-10 top-0 left-0 overflow-y-auto h-auto bg-gray-50 shadow-md border-r border-gray-200 p-6 transition-transform duration-300 ${
+        className={` absolute md:relative z-50 md:z-10 top-0 left-0 overflow-y-auto h-auto bg-gray-50 shadow-md border-r border-gray-200 py-6 ps-3 pe-2 transition-transform duration-300 ${
           isSidebarOpen ? "translate-x-0 w-68" : "-translate-x-full md:w-72 md:translate-x-0"
         }`}
       >
@@ -122,6 +125,8 @@ export default function CertificationPage() {
             </li>
           ))}
         </ul>
+
+       <ContactForm/>
       </aside>
 
       {/* Main Content */}
@@ -146,7 +151,8 @@ export default function CertificationPage() {
                       <div key={item.code}>
                            <Link href={`/certifications/${item.slug}`}>
                         <div key={item.code} className="border p-1 rounded-lg flex items-center space-x-3 my-3 shadow-md bg-themewhite">
-                          <img src={item.c_image} alt="Badge" className="w-28 h-28 object-contain" />
+                        <Image src={item.c_image} alt="LogoBadge" width={100} height={90} />
+                          {/* <img src={item.c_image} alt="Badge" className="w-28 h-28 object-contain" /> */}
                           <div>
                             <h3 className="font-bold">{item.code}</h3>
                             <p className="text-sm text-gray-600">{item.title}</p>

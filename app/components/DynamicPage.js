@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import ContactForm from "./ContactForm";
 // import { useParams } from "next/navigation";
 
 export default function DynamicPage({slug}) {
@@ -34,7 +35,7 @@ export default function DynamicPage({slug}) {
             {certification ? (
                 <div>
                     <section className="flex ">
-                        <div className="w-3/4 px-8 py-6 text-[15px] text-justify">
+                        <div className="w-[73%] px-8 py-6 text-[15px] text-justify">
 
                             <h1 className="text-3xl text-themeblue font-semibold my-5">{certification.cheading}</h1>
 
@@ -157,8 +158,8 @@ export default function DynamicPage({slug}) {
                             <p className="my-2">{certification.finally}</p>
                        
                         </div>
-                        <div className="h-96 w-1/4 pt-9 pe-8">
-                            <div className="bg-themeblueprint text-themewhite w-[95%] p-5 mx-auto rounded-md">
+                        <div className=" w-[27%] pt-9 pe-8">
+                            <div className="bg-themeblueprint text-themewhite p-5 mx-auto rounded-md">
                                 <p className="text-center pb-3">Blue Print of PCEP  Exam</p>
                                 <ul className="text-[12px] border border-themewhite p-5 rounded-md">
                                     <li className="pb-1">Computer Programming and Python Fundamentals  - 12%</li>
@@ -166,6 +167,9 @@ export default function DynamicPage({slug}) {
                                     <li className="pb-1">Data Collections – Tuples, Dictionaries, Lists, and Strings (25%)</li>
                                     <li className="pb-1">Functions and Exceptions (28%) </li>
                                 </ul>
+                            </div>
+                            <div>
+                                <ContactForm/>
                             </div>
                         </div>
                     </section>

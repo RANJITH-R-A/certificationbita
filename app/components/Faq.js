@@ -33,7 +33,7 @@ export default function Faq() {
           <motion.div
             initial={false}
             animate={{ height: openIndex === index ? "auto" : 0, opacity: openIndex === index ? 1 : 0 }}
-            transition={{ duration: 0.15, ease: "easeInOut" }} // 🔥 Faster speed
+            transition={{ duration: 0.15, ease: "easeInOut" }}
             className="overflow-hidden"
           >
             <div className="p-4 text-gray-700">{module.content}</div>

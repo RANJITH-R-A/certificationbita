@@ -1,12 +1,13 @@
 "use client"
 
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 
 
 export default function Page() {
     return (
        <>
- <ContactForm/>
+       <h1>Contactus page</h1>
+ {/* <ContactForm/> */}
        </>
     );
 }

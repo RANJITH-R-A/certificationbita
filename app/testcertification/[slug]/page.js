@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import ContactForm from "../../components/ContactForm";
 
 export default function TestCertification() {
     const { slug } = useParams();
@@ -155,7 +156,7 @@ export default function TestCertification() {
                             <p className="my-2">{certification.finally}</p>
                        
                         </div>
-                        <div className="h-96 w-1/4 pt-9 pe-8">
+                        <div className="w-1/4 pt-9 pe-8 bg-slate-500">
                             <div className="bg-themeblueprint text-themewhite w-[95%] p-5 mx-auto rounded-md">
                                 <p className="text-center pb-3">Blue Print of PCEP  Exam</p>
                                 <ul className="text-[12px] border border-themewhite p-5 rounded-md">
@@ -165,8 +166,11 @@ export default function TestCertification() {
                                     <li className="pb-1">Functions and Exceptions (28%) </li>
                                 </ul>
                             </div>
+                    <ContactForm/>
+                          
                         </div>
                     </section>
+<h1>Contact form</h1>
                 </div>
             ) : (
                 <p>Loading or No Certification Found</p>
@@ -177,48 +181,3 @@ export default function TestCertification() {
 }
 
 
-{/* <div>
-<h1>{certification.title}</h1>
-<p><strong>Description:</strong> {certification.description}</p>
-<p><strong>Content:</strong> {certification.content}</p>
-
-Course Overview (Handles Array or String)
-{certification.courseoverview && (
-    <>
-        <h2>Course Overview</h2>
-        {Array.isArray(certification.courseoverview) ? (
-            <ul>
-                {certification.courseoverview.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
-        ) : (
-            <p>{certification.courseoverview}</p>
-        )}
-    </>
-)}
-
-Why Take This Course? (Handles Array or String)
-{certification.whytakecourse && (
-    <>
-        <h2>Why Take This Course?</h2>
-        {Array.isArray(certification.whytakecourse) ? (
-            <ul>
-                {certification.whytakecourse.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
-        ) : (
-            <p>{certification.whytakecourse}</p>
-        )}
-    </>
-)}
-
-Certification Requirement (Optional)
-{certification.certification && (
-    <>
-        <h2>Certification Requirement</h2>
-        <p>{certification.certification}</p>
-    </>
-)}
-</div> */}

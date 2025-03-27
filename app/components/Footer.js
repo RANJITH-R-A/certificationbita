@@ -1,4 +1,4 @@
-import { SiYoutube, SiFacebook, SiInstagram, SiX } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiX } from "react-icons/si";
 export default function Footer() {
     return (
         <>

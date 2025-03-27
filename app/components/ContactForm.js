@@ -1,54 +1,20 @@
 "use client";
-import { useState } from "react";
 
-export default function ScheduleDemoForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    mobileNumber: "",
-    email: "",
-    occupation: "",
-    certificationName: "",
-    certificationCode: "",
-    demoDate: "",
-    demoTime: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    
-    const response = await fetch("/api/sendEmail", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    if (response.ok) {
-      alert("Demo Scheduled Successfully!");
-    } else {
-      alert("Failed to Schedule Demo.");
-    }
-  };
-
+export default function ContactForm() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-lg bg-gray-300 p-8 rounded-md shadow-md">
-        <h2 className="text-lg font-semibold text-white bg-blue-600 px-4 py-2 mb-6 rounded-md">
+    <div className="flex justify-center my-10 items-center rounded-lg">
+      <div className="w-full max-w-6xl bg-gray-300 rounded-md">
+        <h2 className="text-md  text-white text-center bg-themeblue px-4 py-2 rounded-t-md">
           Schedule a Demo - 30 Mins
         </h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <input type="text" name="name" placeholder="Name" onChange={handleChange} className="input-field" />
-          <input type="text" name="mobileNumber" placeholder="Mobile Number" onChange={handleChange} className="input-field" />
-          <input type="email" name="email" placeholder="E-Mail Id" onChange={handleChange} className="input-field" />
-          <input type="text" name="occupation" placeholder="Occupation" onChange={handleChange} className="input-field" />
-          <input type="text" name="certificationName" placeholder="Certification Name" onChange={handleChange} className="input-field" />
-          <input type="text" name="certificationCode" placeholder="Certification Code" onChange={handleChange} className="input-field" />
-          <input type="date" name="demoDate" onChange={handleChange} className="input-field" />
-          <input type="time" name="demoTime" onChange={handleChange} className="input-field" />
-          <button type="submit" className="bg-blue-600 text-white py-2 rounded-md w-full hover:bg-blue-700">
+        <form className=" space-y-4 px-2 py-4  text-[12px]">
+          <input type="text"  name="name" placeholder="Name"  className="input-field" />
+          <input type="text" name="mobileNumber" placeholder="Mobile Number"  className="input-field" />
+          <input type="email" name="email" placeholder="E-Mail Id"  className="input-field" />
+          <input type="text" name="certificationName" placeholder="Certification Name or Code"  className="input-field" />
+          <input type="text" name="demoDate" placeholder="Tentative Date for Demo"  className="input-field" />
+          <input type="text" name="demoTime" placeholder="Available Time for Demo"  className="input-field" />
+          <button type="submit" className="bg-themeblue text-white py-2 w-[50%] shadow-md">
             Submit
           </button>
         </form>

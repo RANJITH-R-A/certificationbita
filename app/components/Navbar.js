@@ -2,6 +2,7 @@
 import { useState,useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +34,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Left - Logo */}
         <div className="h-11">
-          <img src="/homepageimages/bitalogo.png" alt="BITA Logo" className="w-full h-full"/>
+          <Image src="/homepageimages/bitalogo.png" fill alt="BITA Logo"/>
+          {/* <img src="/homepageimages/bitalogo.png" alt="BITA Logo" className="w-full h-full"/> */}
         </div>
 
         {/* Right - Desktop Menu */}
