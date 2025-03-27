@@ -33,8 +33,8 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Left - Logo */}
-        <div className="h-11">
-          <Image src="/homepageimages/bitalogo.png" fill alt="BITA Logo"/>
+        <div>
+          <Image src="/homepageimages/bitalogo.png" width={120} height={120} alt="BITA Logo"/>
           {/* <img src="/homepageimages/bitalogo.png" alt="BITA Logo" className="w-full h-full"/> */}
         </div>
 
