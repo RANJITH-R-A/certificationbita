@@ -43,8 +43,8 @@ export default function Home() {
            {/* <div className="absolute right-11 bottom-[-60] lg:bottom-[-95]">
            <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[90%]" />
            </div> */}
-            <div className=" absolute -bottom-24">
-           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[90%] bg-red-400" />
+            <div className=" absolute -bottom-12 lg:-bottom-24">
+           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[90%]" />
            </div>
           </div>
          </section>
