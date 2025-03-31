@@ -41,13 +41,13 @@ export default function Navbar() {
         {/* Right - Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-sm">
           <li>
-            <Link href="/" className="hover:text-blue-500">Home</Link>
+            <Link href="/" className="hover:text-white hover:bg-themeblue transition duration-75 ease-linear px-3 py-1 rounded-xl">Home</Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-blue-500">About</Link>
+            <Link href="/about" className="hover:text-white hover:bg-themeblue transition duration-75 ease-linear px-3 py-1 rounded-xl">About</Link>
           </li>
           <li>
-            <Link href="/contactus" className="hover:text-blue-500">Contact</Link>
+            <Link href="/contactus" className="hover:text-white hover:bg-themeblue transition duration-75 ease-linear px-3 py-1 rounded-xl">Contact</Link>
           </li>
         </ul>
 
@@ -68,13 +68,13 @@ export default function Navbar() {
       >
         <ul className="flex flex-col space-y-4 p-4 text-md">
           <li>
-            <Link href="/" className="block py-2" onClick={() => setMenuOpen(false)}>Home</Link>
+            <Link href="/" className="block hover:text-white hover:bg-themeblue transition duration-75 ease-linear px-3 py-1 rounded-xl" onClick={() => setMenuOpen(false)}>Home</Link>
           </li>
           <li>
-            <Link href="/about" className="block py-2" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link href="/about" className="block hover:text-white hover:bg-themeblue transition duration-75 ease-linear px-3 py-1 rounded-xl" onClick={() => setMenuOpen(false)}>About</Link>
           </li>
           <li>
-            <Link href="/contact" className="block py-2" onClick={() => setMenuOpen(false)}>Contact</Link>
+            <Link href="/contactus" className="block hover:text-white hover:bg-themeblue transition duration-75 ease-linear px-3 py-1 rounded-xl" onClick={() => setMenuOpen(false)}>Contact</Link>
           </li>
         </ul>
       </div>
