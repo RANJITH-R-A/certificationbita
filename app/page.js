@@ -40,8 +40,11 @@ export default function Home() {
             <p className="text-sm text-themelightblack text-center lg:text-start py-2">Your Ultimate Online Companion for Professional Certification Mastery.</p>
            </div>
            {/* <img src="/homepageimages/homebanneritem.webp" className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" /> */}
-           <div className="absolute right-11 bottom-[-60] lg:bottom-[-95]">
+           {/* <div className="absolute right-11 bottom-[-60] lg:bottom-[-95]">
            <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[90%]" />
+           </div> */}
+            <div className=" absolute -bottom-24">
+           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[90%] bg-red-400" />
            </div>
           </div>
          </section>
