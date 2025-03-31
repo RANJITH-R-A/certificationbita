@@ -31,17 +31,17 @@ export default function Home() {
     <>
       <main>
         {/* home banner start */}
-         <section className="bg-[url(/homepageimages/homebannerimage.webp)] bg-center bg-cover h-96 relative">
-          <div className=" flex items-center justify-center lg:justify-end h-full">
+         <section className="bg-[url(/homepageimages/homebannerimage.webp)] bg-center bg-cover h-96 px-4">
+          <div className=" flex items-center justify-center lg:justify-end h-full relative">
            <div className="lg:pr-[140px]">
-           <h1 className="text-themeblue font-bold text-2xl text-center lg:text-start">
+           <h1 className="text-themeblue font-bold text-lg lg:text-2xl text-center lg:text-start">
             Simplify Your Certification Exam Journey! 
             </h1>
-            <p className="text-sm text-themelightblack text-center lg:text-start">Your Ultimate Online Companion for Professional Certification Mastery.</p>
+            <p className="text-sm text-themelightblack text-center lg:text-start py-2">Your Ultimate Online Companion for Professional Certification Mastery.</p>
            </div>
            {/* <img src="/homepageimages/homebanneritem.webp" className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" /> */}
            <div className="absolute right-11 bottom-[-60] lg:bottom-[-95]">
-           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[9%]" />
+           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[90%]" />
            </div>
           </div>
          </section>
