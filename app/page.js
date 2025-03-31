@@ -29,7 +29,7 @@ export default function Home() {
  console.log(getnewdata)
   return (
     <>
-      <main className=" xl:max-w-7xl mx-auto">
+      <main>
         {/* home banner start */}
          <section className="bg-[url(/homepageimages/homebannerimage.webp)] bg-center bg-cover h-96 relative">
           <div className=" flex items-center justify-center lg:justify-end h-full">
@@ -40,13 +40,15 @@ export default function Home() {
             <p className="text-sm text-themelightblack text-center lg:text-start">Your Ultimate Online Companion for Professional Certification Mastery.</p>
            </div>
            {/* <img src="/homepageimages/homebanneritem.webp" className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" /> */}
-           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} className="absolute right-11 bottom-[-90] h-64" alt="banneritemimage" />
+           <div className="absolute right-11 bottom-[-60] lg:bottom-[-95]">
+           <Image src="/homepageimages/homebanneritem.webp" height={256} width={312} alt="banneritemimage" className="max-lg:w-[9%]" />
+           </div>
           </div>
          </section>
         {/* home banner end */}
         {/* training pattern start */}
-        <section className="my-[80px] mx-11 text-sm text-justify">
-         <h1 className="text-themeblue font-bold text-2xl my-7">
+        <section className="my-[80px] mx-5 lg:mx-11 text-sm text-justify">
+         <h1 className="text-themeblue font-bold text-center lg:text-start text-2xl my-7">
           Conquer certification exams fearlessly with BITA
          </h1>
          <p className="text-sm text-themelightblack">Are you seeking a career shift but are terrified by the thought of certification exams? Look no further than BITA IT certification Programs online! We recognize that facing certification examinations might be intimidating, but we are here to help you overcome your concerns and achieve your professional objectives. At BITA, we provide comprehensive  IT certification programs online that will give you the knowledge, skills, and confidence you need to pass your tests. Our skilled teachers offer personalized assistance and support at every stage, ensuring you are prepared to succeed on exam day.</p>

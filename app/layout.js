@@ -24,11 +24,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-       className={poppins.className}
+       className={poppins.className} 
       >
-        <Navbar />
+       <section className=" xl:max-w-[1300px] mx-auto">
+       <Navbar />
         {children}
         <Footer/>
+       </section>
       </body>
     </html>
   );

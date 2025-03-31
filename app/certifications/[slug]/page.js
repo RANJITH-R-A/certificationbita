@@ -77,7 +77,7 @@ export default function CertificationPage() {
       <section className="bg-[url(/certification_img/certification_banner/cf_banner.png)] bg-cover h-96 relative">
         <div className="h-full flex justify-center md:justify-around items-center relative">
           {/* {certification.c_image && <img className=" absolute bottom-0 right-11  md:static h-32 md:h-72 " src={certification.c_image} alt={certification.title} />} */}
-          {certification.c_image && <Image className=" absolute bottom-8 right-11 max-md:h-[120px] max-md:w-[120px]  md:static" src={certification.c_image} width={250} height={90} alt={certification.title} />}
+          {certification.c_image && <Image className=" absolute bottom-5 right-11 max-md:h-[120px] max-md:w-[110px]  md:static" src={certification.c_image} width={250} height={90} alt={certification.title} />}
           <ul className=" leading-9 ps-5">
             <li className=" text-sm lg:text-base"><span className="text-themeblue font-bold">Exam Name:</span> Certified Entry Level Python Programmer</li>
             <li className=" text-sm lg:text-base"><span className="text-themeblue font-bold">Prerequisites:</span> None</li>

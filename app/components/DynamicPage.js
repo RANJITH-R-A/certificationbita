@@ -35,7 +35,7 @@ export default function DynamicPage({slug}) {
             {certification ? (
                 <div>
                     <section className="flex ">
-                        <div className="w-[73%] px-8 py-6 text-[15px] text-justify">
+                        <div className="md:w-[73%] px-8 py-6 text-[15px] text-justify">
 
                             <h1 className="text-3xl text-themeblue font-semibold my-5">{certification.cheading}</h1>
 
@@ -158,13 +158,13 @@ export default function DynamicPage({slug}) {
                             <p className="my-2">{certification.finally}</p>
                        
                         </div>
-                        <div className=" w-[27%] pt-9 pe-8">
+                        <div className=" w-[27%] pt-9 pe-8 max-md:hidden">
                             <div className="bg-themeblueprint text-themewhite p-5 mx-auto rounded-md">
                                 <p className="text-center pb-3">Blue Print of PCEP  Exam</p>
                                 <ul className="text-[12px] border border-themewhite p-5 rounded-md">
                                     <li className="pb-1">Computer Programming and Python Fundamentals  - 12%</li>
-                                    <li className="pb-1">Control Flow – Conditional Blocks and Loops (29%)</li>
-                                    <li className="pb-1">Data Collections – Tuples, Dictionaries, Lists, and Strings (25%)</li>
+                                    <li className="pb-1">Control Flow Conditional Blocks and Loops (29%)</li>
+                                    <li className="pb-1">Data Collections Tuples, Dictionaries, Lists, and Strings (25%)</li>
                                     <li className="pb-1">Functions and Exceptions (28%) </li>
                                 </ul>
                             </div>
@@ -183,48 +183,3 @@ export default function DynamicPage({slug}) {
 }
 
 
-{/* <div>
-<h1>{certification.title}</h1>
-<p><strong>Description:</strong> {certification.description}</p>
-<p><strong>Content:</strong> {certification.content}</p>
-
-Course Overview (Handles Array or String)
-{certification.courseoverview && (
-    <>
-        <h2>Course Overview</h2>
-        {Array.isArray(certification.courseoverview) ? (
-            <ul>
-                {certification.courseoverview.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
-        ) : (
-            <p>{certification.courseoverview}</p>
-        )}
-    </>
-)}
-
-Why Take This Course? (Handles Array or String)
-{certification.whytakecourse && (
-    <>
-        <h2>Why Take This Course?</h2>
-        {Array.isArray(certification.whytakecourse) ? (
-            <ul>
-                {certification.whytakecourse.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
-        ) : (
-            <p>{certification.whytakecourse}</p>
-        )}
-    </>
-)}
-
-Certification Requirement (Optional)
-{certification.certification && (
-    <>
-        <h2>Certification Requirement</h2>
-        <p>{certification.certification}</p>
-    </>
-)}
-</div> */}

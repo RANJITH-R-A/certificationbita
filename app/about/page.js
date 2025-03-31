@@ -114,13 +114,15 @@ const roadmapskills = [
                 <div className=" flex items-center justify-center lg:justify-evenly h-full">
                 {/* <img src="/aboutpageimages/bannerimg2.png" className="h-40 md:h-72 hidden md:block" alt="bannerimage" /> */}
                 <Image src="/aboutpageimages/bannerimg2.png" height={230} width={300} className="hidden md:block" alt="bannerimage" />
-                    <div className="">
+                    <div>
                         <h1 className="text-themeblue font-bold text-2xl text-center lg:text-start">
                             Be at the forefront of your industry
                         </h1>
-                        <p className="text-lg text-themelightblack mt-3 text-center lg:text-start">Join BITA to name your certificate and <br /> propel your career forward.</p>
+                        <p className="text-lg text-themelightblack mt-3 text-center lg:text-start">Join BITA to name your certificate and <br className="hidden lg:block" /> propel your career forward.</p>
                     </div>
-                    <Image src="/aboutpageimages/aboutbannerimg.png" height={220} width={500} className="absolute right-11 -bottom-20 md:bottom-[-125] max-lg:h-[20%]" alt="banneritemimage" />
+                    <div className="absolute md:right-11 -bottom-28 sm:-bottom-32 md:bottom-[-125]">
+                    <Image src="/aboutpageimages/aboutbannerimg.png" height={220} width={500} alt="banneritemimage" />
+                    </div>
                 </div>
             </section>
             {/* about banner end */}
@@ -165,7 +167,7 @@ const roadmapskills = [
                 </section>
 
                 <section>
-                    <div className="h-auto pt-10 text-justify">
+                    <div className="h-auto pt-10 md:text-justify">
                         <div className="flex items-center gap-4">
                             <Image src="/aboutpageimages/roadmap.png" width={90} height={90} alt="roadmap image"/>
                             {/* <img src="/aboutpageimages/roadmap.png" className="w-28 max-w-24" /> */}
@@ -182,7 +184,7 @@ const roadmapskills = [
                                     <h3 className="text-themeblue text-lg my-1">{getroadmapskills.skillsheading}</h3>
                                     <ul className=" list-disc ms-10" >
                                         {
-                                            getroadmapskills.skillscontent.map((getroadmapcontent,index) => ( <li key={index}>{getroadmapcontent}</li>) )
+                                            getroadmapskills.skillscontent.map((getroadmapcontent,index) => ( <li key={index} className="py-1">{getroadmapcontent}</li>) )
                                         }
                                        
                                     </ul>
